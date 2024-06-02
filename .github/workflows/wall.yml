@@ -33,9 +33,9 @@ jobs:
         fetch-depth: 0
 
     - name: Initialization environment
-      run: |
-        git config --global user.email "your-email@example.com"
-        git config --global user.name "opamoy"
+      run : |
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
         sudo timedatectl set-timezone "Asia/Shanghai"
         
     - name: Clone packages
